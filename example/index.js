@@ -3,12 +3,12 @@
  */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
-import '../src/index.scss';
+import '../dist/css/shareui-sidebar-menu.css';
 import 'babel-polyfill';
 import React from 'react';
 import { render } from 'react-dom';
 
-import SidebarMenu from '../src';
+import SidebarMenu from '../dist/shareui-sidebar-menu';
 
 let data = [
     {
